@@ -248,11 +248,9 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         <main>
-          <section></section>
+          <section>{children}</section>
         </main>
         <footer></footer>
-
-        {children}
       </body>
     </html>
   );
